@@ -1,4 +1,4 @@
-# A presentation template for SAIL presentations
+# A presentation template for SAIL
 
 **Important:** This has been tested in Overleaf. Colors and font loading need more work for the template to compile correctly in your OS.
 
