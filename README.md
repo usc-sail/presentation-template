@@ -9,10 +9,14 @@ Use XeLaTeX (`Menu > Compiler > XeLaTeX`). The compiler knows where to find the 
 For the configuration in the `latexmkrc` to work, `demo.tex` and and `sty/` need to be in the parent folder.
 
 ### Your computer
-To compile the presentation in your computer using the correct styles on your computer, compile the document using the following command:
-
-```
+To compile the presentation in your computer using the correct styles, compile the document using the following command:
+```bash
 TEXINPUTS=".:sty:$TEXINPUTS" xelatex demo.tex
 ```
+This tells XeLaTeX where to find the approrpiate `.sty` file.
 
-This tells XeLaTeX where to find the approrpiate `.sty` file. 
+You can also use `latexmk` directly:
+```bash
+latexmk demo.tex
+```
+(check out all the options: `latexmk --help`).
