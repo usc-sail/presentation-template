@@ -12,6 +12,10 @@
 \usepackage{xspace}
 \newcommand{\themename}{\textbf{\textsc{metropolis}}\xspace}
 
+\usepackage[style=verbose,backend=biber,giveninits=true]{biblatex} % https://tex.stackexchange.com/questions/376714/author-name-and-first-name-order-with-biblatex
+\DeclareNameAlias{sortname}{first-last}
+\addbibresource{references.bib}
+
 \title{SAIL beamer template}
 \subtitle{A template based on Metropolis}
 % \date{\today}
@@ -337,8 +341,7 @@ or show \textbf{bold} results.\end{verbatim}
 
 \begin{frame}[allowframebreaks]{References}
 
-  \bibliography{demo}
-  \bibliographystyle{abbrv}
+  \printbibliography
 
 \end{frame}
 
