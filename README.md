@@ -1,6 +1,6 @@
-# A presentation template for SAIL based on Metropolis
+# A presentation template for SAIL based on mtheme (former Metropolis)
 
-This theme has been adapted from the Metropolis theme: https://github.com/matze/mtheme. Please visit the link for instructions (including a usage manual).
+This theme has been adapted from the mtheme theme: https://github.com/matze/mtheme. Please visit the link for instructions (including a usage manual).
 
 # License
 
